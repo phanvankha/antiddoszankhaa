@@ -6,5 +6,5 @@ $sql = "INSERT INTO ip (ip, user_agent, time) VALUES ('{$ip}', '{$user_agent}', 
 global $HTTP_SERVER_VARS; 
 $text = $HTTP_SERVER_VARS; 
 $text = preg_replace("#php\&#si",'php?',$text); 
-echo('<meta http-equiv="refresh" content="1;url=https://phanvankha.site/api/'.$text.'">');
+echo('<meta http-equiv="refresh" content="1;url=https://phanvankha.site/'.$text.'">');
 ?>
